@@ -1,0 +1,28 @@
+[base]
+mode = "workspace"
+smart_pull = true
+
+[mode.workspace]
+git_info = true
+colorblind = true
+
+[repositories]
+repos = [
+  # My programs
+  "nms:appendage",
+  "nms:pronounce",
+  "nms:configuratrix",
+  "nms:rpass",
+  "tar:apod",
+  
+  # Misc
+  "nms:flake",
+  
+  # My forks
+  "nms:sshs",
+  "nms:nixpkgs",
+]
+
+[repositories.urls]
+tar = "ssh://gitea@git.tar.black:michal/{}"
+nms = "ssh://git@github.com/not-my-segfault/{}"

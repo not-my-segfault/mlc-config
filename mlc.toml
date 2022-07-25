@@ -24,5 +24,5 @@ repos = [
 ]
 
 [repositories.urls]
-tar = "ssh://gitea@git.tar.black:michal/{}"
+tar = "ssh://gitea@git.tar.black/michal/{}"
 nms = "ssh://git@github.com/not-my-segfault/{}"

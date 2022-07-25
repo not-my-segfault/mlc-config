@@ -20,7 +20,7 @@ repos = [
   
   # My forks
   "nms:sshs",
-  "nms:nixpkgs",
+  "nms:nixpkgs:1",
 ]
 
 [repositories.urls]

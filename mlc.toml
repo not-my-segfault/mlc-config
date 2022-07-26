@@ -17,6 +17,7 @@ repos = [
   
   # Misc
   "nms:flake",
+  "qmk:qmk_firmware:1",
   
   # My forks
   "nms:sshs",
@@ -26,3 +27,4 @@ repos = [
 [repositories.urls]
 tar = "ssh://gitea@git.tar.black/michal/{}"
 nms = "ssh://git@github.com/not-my-segfault/{}"
+qmk = "ssh://git@github.com/qmk/{}"

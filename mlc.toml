@@ -14,7 +14,7 @@ repos = [
   "nms:configuratrix",
   "nms:rpass",
   "tar:apod",
-  "hlv:halva",
+  "alchemi:caveman",
   
   # Misc
   "nms:flake",
@@ -29,4 +29,4 @@ repos = [
 tar = "ssh://gitea@git.tar.black/michal/{}"
 nms = "ssh://git@github.com/not-my-segfault/{}"
 qmk = "ssh://git@github.com/qmk/{}"
-hlv = "ssh://git@github.com/HalvaBot/{}"
+alchemi = "ssh://git@github.com/Codealchemi/{}"

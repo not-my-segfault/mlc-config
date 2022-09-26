@@ -9,13 +9,14 @@ colorblind = true
 [repositories]
 repos = [
   # My programs
-  "nms:appendage",
   "nms:pronounce",
-  "nms:configuratrix",
-  "nms:rpass",
-  "tar:apod",
+  "tar:parse",
   "alchemi:caveman",
-  "uf:uf-stuff",
+  
+  # Ad Astra
+  "ada:homeserve",
+  "afs:build-system",
+  "afs:mixiek-route",
   
   # Misc
   "nms:flake",
@@ -23,12 +24,12 @@ repos = [
   
   # My forks
   "nms:sshs",
-  "nms:nixpkgs:1",
 ]
 
 [repositories.urls]
-tar = "ssh://gitea@git.tar.black/michal/{}"
+ada = "ssh://git@git.tar.black/ad-astra/{}"
+afs = "ssh://git@git.tar.black/ad-astra/friendsim/{}"
+alchemi = "ssh://git@github.com/Codealchemi/{}"
 nms = "ssh://git@github.com/not-my-segfault/{}"
 qmk = "ssh://git@github.com/qmk/{}"
-uf = "ssh://git@github.com/untitled-friendsim/{}"
-alchemi = "ssh://git@github.com/Codealchemi/{}"
+tar = "ssh://gitea@git.tar.black/michal/{}"
